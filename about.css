@@ -1,0 +1,126 @@
+#center:hover{
+    transform: scale(1.5);
+    animation-name: img;
+animation-duration: 300ms;
+animation-fill-mode: forwards;       
+} 
+
+@keyframes  img {
+100%{
+width: 200px; 
+color: aqua;
+background: #000;
+}
+}
+
+body{
+    background-color: rgba(6, 6, 216, 0.884) ;
+text-decoration: palevioletred;
+text-emphasis-color: white;
+   color: rgba(250, 243, 243, 0.877);
+flex-wrap: wrap;
+
+}
+#left{
+    width: 70%;
+    padding:2rem;
+    text-align-last: auto;
+    
+}
+#right{
+    width: 30%;
+    padding:2rem;
+  
+    
+}
+.section{
+    display: flex;
+}
+.id{
+    border-style: solid;
+    border-width:50% ;
+    padding: 2rem;
+    margin: 0%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.id{
+animation-name: abhishek;
+animation-duration: 10ms;
+border-radius: 50px;
+
+}
+@keyframes abhishek {
+100%{
+
+    margin-left: 1000px;
+    background: black;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+}
+
+#right:hover{
+animation-name: card;
+animation-duration: 300ms;
+animation-fill-mode: forwards;
+
+}
+@keyframes  card {
+100%{
+width: 550px; 
+
+}
+}
+#left:hover{
+
+color: black ; 
+
+}
+#right:hover{
+
+color: black ; 
+}
+.id:hover{
+
+color: black ; 
+}
+
+
+#intro{
+text-transform: uppercase;
+}
+body{
+    animation-name: body ;
+    animation-duration: 2s;
+    
+    animation-direction: reverse;
+    
+    animation-fill-mode: reverse;
+    
+}
+
+@keyframes body {
+    100%{
+        width: 100%;
+        background: black;
+        
+        
+
+
+        
+        
+       
+    }
+    
+
+}
+#center{
+    border-radius: 50px;
+}
+#logo{
+align-self: left;
+}
